@@ -1,30 +1,27 @@
 # Testing Script for Saucedemo
 
-Suite de pruebas automatizadas end-to-end para [Saucedemo](https://www.saucedemo.com), construida con **Python**, 
-**Pytest** y **Playwright**, siguiendo el patrón de diseño **Page Object Model (POM)**.
+Suite de pruebas automatizadas end-to-end para [Saucedemo](https://www.saucedemo.com), construida con **Python**, **Pytest** y **Playwright**, siguiendo el patrón de diseño **Page Object Model (POM)**.
 
 ---
 
 ## Tabla de contenidos
 
-- [Descripción]
-- [Tecnologías]
-- [Estructura del proyecto]
-- [Cobertura de pruebas]
-- [Instalación]
-- [Ejecución de las pruebas]
-- [Decisiones de diseño]
-- [Autor]
+- [Descripción](#descripción)
+- [Tecnologías](#tecnologías)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Cobertura de pruebas](#cobertura-de-pruebas)
+- [Instalación](#instalación)
+- [Ejecución de las pruebas](#ejecución-de-las-pruebas)
+- [Decisiones de diseño](#decisiones-de-diseño)
+- [Autor](#autor)
 
 ---
 
 ## Descripción
 
-Este proyecto automatiza los flujos principales de la tienda demo Saucedemo: autenticación, catálogo de productos, 
-carrito de compras, proceso de compra (checkout) y menú de navegación.
+Este proyecto automatiza los flujos principales de la tienda demo Saucedemo: autenticación, catálogo de productos, carrito de compras, proceso de compra (checkout) y menú de navegación.
 
-Además de los flujos exitosos, incluye pruebas para usuarios con comportamientos defectuosos conocidos de la aplicación 
-(`problem_user`, `visual_user`, `locked_out_user`), con el objetivo de detectar y documentar sus fallos.
+Además de los flujos exitosos, incluye pruebas para usuarios con comportamientos defectuosos conocidos de la aplicación (`problem_user`, `visual_user`, `locked_out_user`), con el objetivo de detectar y documentar sus fallos.
 
 ## Tecnologías
 
